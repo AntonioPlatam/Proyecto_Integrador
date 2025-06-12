@@ -1,0 +1,58 @@
+# Proyecto Integrador 1 - Curso Data Engineer
+
+## Descripción
+Este proyecto integrador forma parte del curso de Data Engineering y tiene como objetivo aplicar los conceptos de procesamiento de datos, transformación y almacenamiento en un entorno práctico.
+
+como objetivo de la practica:
+
+Avance 1  Carga y exploracion de datos SQL
+
+    Realizamos subconsultas realcionadas y no relacionadas, viendo su impacto en los tiempos de carga de la base de datos
+    Funciones de ventana 
+Avance 2  Automatizaciony optimizacion de consultas SQL
+
+    Generamos Triggers para la manipulacion de informacion dentro de la misma base de datos, la cuales nos sirven para detectar siertas acciones generadas
+    Creacion de indices y su impacto en los tiempos de carga de consultas en la base de datos.
+Avance 3  Transformacion de datos con python
+
+    Manipulacion de datos con la libreria de pandas, implementamos tecnicas de limpieza y transformacion.
+
+## Estructura de la Carpeta
+
+📂 Proyecto Integrador 1
+├── 📂 data
+│   ├── 📂 CSV          # Archivos en formato CSV
+│   ├── 📂 DB_SQL       # Bases de datos en formato SQL
+├── 📂 documents        # Documentación del proyecto
+├── 📂 img
+│   ├── 📂 capturas_avance_1  # Capturas de avance 1
+│   ├── 📂 capturas_avance_2  # Capturas de avance 2
+├── 📂 sql_scripts      # Scripts SQL del proyecto
+│   ├── 📄 avance_1.sql
+│   ├── 📄 Avance_2.sql
+│   ├── 📄 script_carga_datos.py
+│   ├── 📄 script_tablas_pi.sql
+├── 📄 avance_3.ipynb   # Notebook de pruebas y análisis
+├── 📄 carga_db.ipynb   # Notebook para carga de datos en la BD
+├── 📄 readme.md        # Este archivo READM
+
+
+## Requisitos
+- Python 3.x  
+- Pandas, NumPy, SQLAlchemy, matplotlib, seaborn  
+- Jupyter Notebook  
+- PostgreSQL / MySQL  
+
+## Cómo Ejecutar
+1. Clonar este repositorio en la máquina local.  
+2. Instalar las dependencias con `pip install -r requirements.txt`.  
+3. Ejecutar los scripts SQL en `sql_scripts/script_tablas_pi.sql` para general base de datos "sales_company"
+4. Ejecutar el archivo `carga_db.ipynb` para realizar la carga de los archivos CSV en la base de datos
+
+## Concuclion 
+
+En este proyecto integrador pudimos observar todo el proceso inicial de un "Data Engineer", tanto en la carga de los datos, como manipulacion de los mismos.
+
+A lo largo del desarrollo, se han implementado procesos de transformacion de datos para asegurar su calidad y estructura optima, facilitando su integracion en bases ed datos SQL.
+
+El suo de herramientas como python, sql yjupyter notebook ha permitido un enforque practico y replicabl para el prcesamiento de datos
