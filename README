@@ -1,19 +1,20 @@
-Descripción
-Este proyecto integrador forma parte del curso de Data Engineering y tiene como objetivo aplicar los conceptos de procesamiento, transformación y almacenamiento de datos en un entorno práctico.
+# Descripción
+    Este proyecto integrador forma parte del curso de Data Engineering y tiene como objetivo aplicar los conceptos de procesamiento, transformación y almacenamiento de datos en un entorno práctico.
 
-Objetivos de la práctica:
+# Objetivos de la práctica:
 Avance 1 – Carga y exploración de datos en SQL
-Realizamos subconsultas relacionadas y no relacionadas, observando su impacto en los tiempos de carga de la base de datos.
 
-Aplicamos funciones de ventana para analizar datos a nivel de filas con contexto adicional.
+    Realizamos subconsultas relacionadas y no relacionadas, observando su impacto en los tiempos de carga de la base de datos.
+    Aplicamos funciones de ventana para analizar datos a nivel de filas con contexto adicional.
 
 Avance 2 – Automatización y optimización de consultas SQL
-Generamos triggers para la manipulación de información dentro de la base de datos, los cuales nos permiten detectar ciertas acciones generadas.
 
-Creamos índices y analizamos su impacto en los tiempos de ejecución de las consultas.
+    Generamos triggers para la manipulación de información dentro de la base de datos, los cuales nos permiten detectar ciertas acciones generadas.
+    Creamos índices y analizamos su impacto en los tiempos de ejecución de las consultas.
 
 Avance 3 – Transformación de datos con Python
-Manipulamos datos utilizando la librería pandas, e implementamos técnicas de limpieza y transformación para preparar los datos.
+
+    Manipulamos datos utilizando la librería pandas, e implementamos técnicas de limpieza y transformación para preparar los datos.
 
 Estructura de la Carpeta
 📂 Proyecto Integrador 1
@@ -33,27 +34,19 @@ Estructura de la Carpeta
 ├── 📄 carga_db.ipynb  # Notebook para carga de datos en la base de datos
 ├── 📄 README.md  # Este archivo README
 
-Requisitos
+# Requisitos
 Python 3.x
+- Pandas, NumPy, SQLAlchemy, matplotlib, seaborn
+- Jupyter Notebook
+- PostgreSQL / MySQL
 
-Pandas, NumPy, SQLAlchemy, matplotlib, seaborn
+# Cómo Ejecutar
+- Clonar este repositorio en la máquina local.
+- Instalar las dependencias con pip install -r requirements.txt.
+- Ejecutar los scripts SQL ubicados en sql_scripts/script_tablas_pi.sql para generar la base de datos "sales_company".
+- Ejecutar el archivo carga_db.ipynb para realizar la carga de los archivos CSV en la base de datos.
 
-Jupyter Notebook
-
-PostgreSQL / MySQL
-
-Cómo Ejecutar
-Clonar este repositorio en la máquina local.
-
-Instalar las dependencias con pip install -r requirements.txt.
-
-Ejecutar los scripts SQL ubicados en sql_scripts/script_tablas_pi.sql para generar la base de datos "sales_company".
-
-Ejecutar el archivo carga_db.ipynb para realizar la carga de los archivos CSV en la base de datos.
-
-Conclusión
+# Conclusión
 En este proyecto integrador pudimos observar todo el proceso inicial que realiza un Data Engineer, desde la carga hasta la manipulación de los datos.
-
 A lo largo del desarrollo, se implementaron procesos de transformación de datos para asegurar su calidad y estructura óptima, facilitando su integración en bases de datos SQL.
-
 El uso de herramientas como Python, SQL y Jupyter Notebook permitió un enfoque práctico y replicable para el procesamiento de datos.
